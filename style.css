@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+	background: url('https://images.unsplash.com/photo-1519120693210-d47b03b31d77?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b8d462021896b6a8825629fb69a04b4&auto=format&fit=crop&w=2137&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px; 
+}
+
+
+.column-card-list {
+    min-height: 200px;
+}
+
+li {
+    list-style: none;
+    min-height: 100px;    
+    padding: 10px;
+    margin: 20px 20px;
+    cursor: all-scroll;
+}
+
+.column {
+    width: 30%;
+    margin: 0 1%;
+    float: left;
+    min-height: 500px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.create-column {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background: #9999FF;
+    margin: 20px 40%;
+    display: inline-block;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+h1, h2 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 40px;
+    color: white;
+}
+
+.btn-delete {
+    max-width: 120px;
+    height: 40px;
+    margin: 20px 10px;
+    background: rgba(255, 0, 0, 0.6);
+    padding: 0 10px;
+}
+
+li .btn-delete {
+    background: orange;
+    margin: 0;
+    max-width: 120px;
+    height: 40px;
+    padding: 10px;
+}
+
+.add-card {
+    height: 40px;
+    margin: 0 20px;
+    padding: 0 10px;
+    background: #9999FF;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+li.card {
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
