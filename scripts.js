@@ -29,11 +29,9 @@ $(function() {
             });
 
             $columnAddCard.click(function() { //Add a note after clicking on the button
-
                 //	self.addCard(new Card(prompt("Enter the name of the card")));
-                //prompt returns a string if the user presses OK 
                 var input = prompt("Enter the name of the card");
-                if (input !== null) {
+                if (input !== null) { //prompt returns a string if the user presses OK 
                     self.addCard(new Card(input));
                 }
             });
@@ -114,11 +112,6 @@ $(function() {
                 board.addColumn(column);
             }
         });
-
-    /*                var input = prompt("Enter the name of the card");
-            if (input !== null) {
-                self.addCard(new Card(input));
-        */
 
     // CREATING COLUMNS
     var todoColumn = new Column('To do');
